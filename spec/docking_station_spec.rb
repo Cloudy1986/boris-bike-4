@@ -29,7 +29,7 @@ describe DockingStation do
   describe '#release_bike' do
     it 'raises exception if docking station has no bike' do
       docking_station = DockingStation.new
-      expect { docking_station.release_bike }.to raise_exception 
+      expect { docking_station.release_bike }.to raise_exception
     end
   end
 end

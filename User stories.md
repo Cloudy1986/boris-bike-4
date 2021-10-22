@@ -33,3 +33,17 @@ Verbs: working
 | -------- | --------------- |
 | Customer | |
 | Bike | bike_working? |
+
+Step 13 - limiting capacity
+
+User story:
+As a maintainer of the system,
+So that I can control the distribution of bikes,
+I'd like docking stations not to accept more bikes than their capacity.
+
+Nouns - docking station, bike
+Verbs - not accept, more than, capacity?
+
+ Objects  | Messages        |
+| -------- | --------------- |
+| docking station | capacity?, don't dock |
