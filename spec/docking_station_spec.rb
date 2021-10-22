@@ -32,4 +32,14 @@ describe DockingStation do
       expect { docking_station.release_bike }.to raise_exception
     end
   end
+
+  it 'reaises exception when docking station is full' do
+    docking_station = DockingStation.new
+    bike1 = Bike.new
+    bike2 = Bike.new
+    docking_station.dock(bike1)
+    expect{ docking_station.dock(bike2) }.to raise_exception('Docking station full!')
+  end
+
+  
 end
