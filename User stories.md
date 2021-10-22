@@ -34,6 +34,8 @@ Verbs: working
 | Customer | |
 | Bike | bike_working? |
 
+------------------------------
+
 Step 13 - limiting capacity
 
 User story:
@@ -47,3 +49,19 @@ Verbs - not accept, more than, capacity?
  Objects  | Messages        |
 | -------- | --------------- |
 | docking station | capacity?, don't dock |
+
+------------------------------
+
+Step 14 - limiting capacity
+
+As a system maintainer,
+So that I can plan the distribution of bikes,
+I want a docking station to have a default capacity of 20 bikes.
+
+Nouns - docking_station, default_capacity
+Verbs - 
+
+ Objects  | Messages        |
+| -------- | --------------- |
+| docking_station  |  |
+| default_capcity  |  |
